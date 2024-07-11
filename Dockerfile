@@ -1,5 +1,5 @@
 FROM node:18
 COPY . /app
 WORKDIR /app
-RUN nom install
+RUN npm install
 CMD [ "npm", "install" ]
